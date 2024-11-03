@@ -64,7 +64,10 @@
     margin: 0 auto;
   }
   .main-container {
-    padding: 60px 20px;
+    padding: 60px 30px;
+  }
+  .banner-text-gradient{
+    background: none;
   }
 }
 

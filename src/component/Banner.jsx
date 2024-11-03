@@ -6,15 +6,15 @@ import star from '../assets/vector.png';
 
 const Banner = () => {
     return (
-        <div className='main-container !pt-[240px] banner-bg lg:flex items-center'>
+        <div className='main-container !pt-[130px] !lg:pt-[240px] banner-bg flex flex-col lg:flex-row gap-8 lg:gap-0 items-center'>
             {/* banner text */}
-            <div className='relative z-10 lg:w-1/2 text-left space-y-8'>
-                <h1 className='banner-text-gradient bebass-neue text-[120px] text-white w-[850px] h-[252px] leading-[130px]'>
+            <div className='relative z-10 w-full lg:w-1/2 text-left lg:space-y-8 space-y-4'>
+                <h1 className='banner-text-gradient bebass-neue text-5xl lg:text-[120px] text-white lg:w-[850px] lg:h-[252px] lg:leading-[130px]'>
                     Taste the authentic
                     <br />
                     Saudi cuisine
                 </h1>
-                <p className='roboto text-2xl text-white'>
+                <p className='roboto text-xl lg:text-2xl text-white'>
                     Among the best Saudi chefs in the world, serving you something beyond flavor. 
                 </p>
                 <div>
@@ -25,8 +25,8 @@ const Banner = () => {
             {/* banner image */}
             <div className='relative lg:w-1/2'>
                 <img src={bannerImage} alt="Banner Image" className="w-full h-auto object-cover" />
-                <img className='absolute bottom-[99%] -right-[5%]' src={star} alt="star" />
-                <img className='absolute top-[80%] -right-[10%]' src={offer} alt="offer" />
+                <img className='absolute top-0 lg:bottom-[99%] right-0 lg:-right-[5%]' src={star} alt="star" />
+                <img className='absolute bottom-0 lg:top-[80%] right-0 lg:-right-[10%]' src={offer} alt="offer" />
                 
             </div>
         </div>
