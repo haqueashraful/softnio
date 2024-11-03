@@ -2,8 +2,71 @@
 @tailwind components;
 @tailwind utilities;
 
+#root {
+  max-width: 1961px;
+  margin: 0 auto;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.main-container {
+  width: 100%;
+  padding: 120px 300px;
+}
+
+.btn-common {
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8;
+  padding: 16px 24px 16px 24px;
+
+  /* Yellow */
+  background: rgb(254, 191, 0);
 
 
+  /* btn text style */
+  color: rgb(10, 20, 37);
+  font-family: "Roboto", serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* banner style */
+
+.banner-bg {
+  background: url('./assets/bannerbg.png'), rgb(188, 51, 41);
+}
+
+.banner-text-gradient {
+  background: linear-gradient(90.00deg, rgba(189, 31, 23, 0) 32.879%, rgba(189, 31, 23, 0.7) 100%);
+}
+
+.bebass-neue {
+  font-family: "Bebas Neue", serif;
+}
+.roboto {
+  font-family: "Roboto", serif;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+  #root {
+    max-width: auto;
+    margin: 0 auto;
+  }
+  .main-container {
+    padding: 60px 20px;
+  }
+}
 
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
