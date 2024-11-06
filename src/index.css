@@ -144,6 +144,26 @@
   background: #B52B1D;
 }
 
+/* book table style */
+.book-table-bg {
+  background: url('./assets/booktable.jpeg') no-repeat center;
+  background-size: 100% 100%;
+}
+
+input,
+textarea{
+  color: #ffffff;
+  background: none;
+  border: 2px solid #ffffff;
+  padding: 16px;
+}
+
+input::placeholder,
+textarea::placeholder {
+  appearance:  none;
+  color: #ffffff;
+}
+
 
 /* menual responsive */
 @media screen and (max-width: 768px) {

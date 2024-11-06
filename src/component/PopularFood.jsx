@@ -61,7 +61,7 @@ const PopularFood = () => {
                     dotListClass=""
                     draggable
                     focusOnSelect={false}
-                    infinite={false}
+                    infinite={true}
                     itemClass=""
                     keyBoardControl
                     minimumTouchDrag={80}
@@ -96,7 +96,7 @@ const PopularFood = () => {
                         }
                     }}
                     rewind={false}
-                    rewindWithAnimation={false}
+                    rewindWithAnimation={true}
                     rtl={false}
                     shouldResetAutoplay
                     showDots={false}
