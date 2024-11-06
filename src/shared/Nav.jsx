@@ -3,13 +3,13 @@ import logo from '../assets/logo.png';
 
 const Nav = () => {
     return (
-        <div className='w-full absolute top-0 left-0 px-[30px] lg:px-[300px] lg:py-[32px] flex justify-between items-center'>
+        <div className='w-full absolute top-0 left-0 px-[30px] lg:px-[300px] lg:py-[32px] py-6 flex justify-between items-center'>
             {/* logo div */}
             <div className='flex justify-center items-center gap-10'>
                 <img src={logo} alt="logo" />
 
                 {/* nav item */}
-                    <ul className='flex justify-center items-center gap-10 text-white'>
+                    <ul className='lg:flex justify-center items-center gap-10 text-white hidden'>
                         <li>
                             Home
                         </li>

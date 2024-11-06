@@ -32,7 +32,7 @@ const AboutSection = () => {
                         {/* About content */}
                         <TabPanel className={' '}>
                             <div className='space-y-4 my-8'>
-                                <h1 className='text-[40px] lg:text-6xl font-semibold bebass-neue'>Exceptional culinary experience and delicious food</h1>
+                                <h1 className='text-[40px] lg:text-6xl bebass-neue'>Exceptional culinary experience and delicious food</h1>
                                 <p className='roboto'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare non sed est cursus. Vel hac convallis ipsum, facilisi odio pellentesque bibendum viverra tempus. Lorem ipsum dolor sit amet consectetur adipiscing elit do eiusmod tempor incididunt ut labore et dolore magna minim veniam nostrud exercitation.</p>
                             </div>
 
@@ -48,7 +48,7 @@ const AboutSection = () => {
                         {/* Experiences content */}
                         <TabPanel className={' '}>
                             <div className='space-y-4 my-8'>
-                                <h1 className='text-[40px] lg:text-6xl  font-semibold bebass-neue'>Exceptional culinary experience and delicious food</h1>
+                                <h1 className='text-[40px] lg:text-6xl  bebass-neue'>Exceptional culinary experience and delicious food</h1>
                                 <p className='roboto'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare non sed est cursus. Vel hac convallis ipsum, facilisi odio pellentesque bibendum viverra tempus. Lorem ipsum dolor sit amet consectetur adipiscing elit do eiusmod tempor incididunt ut labore et dolore magna minim veniam nostrud exercitation.</p>
                             </div>
 
@@ -64,7 +64,7 @@ const AboutSection = () => {
                         {/* Contact content */}
                         <TabPanel className={' '}>
                             <div className='space-y-4 my-8'>
-                                <h1 className='text-[40px] lg:text-6xl  font-semibold bebass-neue'>Exceptional culinary experience and delicious food</h1>
+                                <h1 className='text-[40px] lg:text-6xl  bebass-neue'>Exceptional culinary experience and delicious food</h1>
                                 <p className='roboto'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare non sed est cursus. Vel hac convallis ipsum, facilisi odio pellentesque bibendum viverra tempus. Lorem ipsum dolor sit amet consectetur adipiscing elit do eiusmod tempor incididunt ut labore et dolore magna minim veniam nostrud exercitation.</p>
                             </div>
 
@@ -86,11 +86,11 @@ const AboutSection = () => {
                 {/* delivery */}
                 <div className='flex items-center gap-4 w-full'>
                     <p className='icon-shadow'>
-                        <BsBoxSeam className='!w-8 !h-8 font-extraboldd' />
+                        <BsBoxSeam className='!w-8 !h-8 font-extrabold' />
                     </p>
 
                     <div>
-                        <h1 className='text-3xl text-left font-bold bebass-neue uppercase'>fast delivery</h1>
+                        <h1 className='text-3xl text-left  bebass-neue uppercase'>fast delivery</h1>
                         <p className='text-xl text-left'>Within 30 minutes</p>
                     </div>
                 </div>
@@ -98,11 +98,11 @@ const AboutSection = () => {
                 {/* Dining */}
                 <div className='flex items-center gap-4 w-full'>
                     <p className='icon-shadow'>
-                        <FaAward className='!w-8 !h-8 font-extraboldd' />
+                        <FaAward className='!w-8 !h-8 font-extrabold' />
                     </p>
 
                     <div>
-                        <h1 className='text-3xl text-left font-bold bebass-neue uppercase'>absolute dining</h1>
+                        <h1 className='text-3xl text-left  bebass-neue uppercase'>absolute dining</h1>
                         <p className='text-xl  text-left'>Best buffet restaurant</p>
                     </div>
                 </div>
@@ -111,11 +111,11 @@ const AboutSection = () => {
                 {/* Pickup */}
                 <div className='flex items-center gap-4 w-full'>
                     <p className='icon-shadow'>
-                        <FiShoppingBag className='!w-8 !h-8 font-extraboldd' />
+                        <FiShoppingBag className='!w-8 !h-8 font-extrabold' />
                     </p>
 
                     <div>
-                        <h1 className='text-3xl text-left font-bold bebass-neue uppercase'>pickup delivery</h1>
+                        <h1 className='text-3xl text-left  bebass-neue uppercase'>pickup delivery</h1>
                         <p className='text-xl text-left'>Grab your food order</p>
                     </div>
                 </div>
