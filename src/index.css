@@ -14,6 +14,17 @@
   padding: 120px 300px;
 }
 
+
+/* font */
+.bebass-neue {
+  font-family: "Bebas Neue", serif;
+}
+
+.roboto {
+  font-family: "Roboto", serif;
+}
+
+
 .btn-common {
   /* Auto layout */
   display: flex;
@@ -38,6 +49,31 @@
   text-transform: uppercase;
 }
 
+
+.icon-shadow {
+  width: 90px;
+  height: 90px;
+  box-shadow: 0px 7px 16px 0px rgba(0, 0, 0, 0.1);
+  background: rgb(255, 255, 255);
+  border-radius: 50%;
+  color: #B52B1D;
+  padding: 30px;
+}
+
+/* react tabs style */
+.react-tabs__tab-list {
+  border-bottom: 1px solid #B52B1D !important;
+}
+
+.react-tabs__tab--selected {
+  background: #B52B1D !important;
+  border-color: #B52B1D !important;
+  border-bottom: #ffffff !important;
+  color: #ffffff !important;
+  border-radius: 0 !important;
+  /* border-radius: 5px 5px 0 0; */
+}
+
 /* banner style */
 
 .banner-bg {
@@ -48,25 +84,33 @@
   background: linear-gradient(90.00deg, rgba(189, 31, 23, 0) 32.879%, rgba(189, 31, 23, 0.7) 100%);
 }
 
-.bebass-neue {
-  font-family: "Bebas Neue", serif;
+
+
+/* about section style */
+.about-bg {
+  background: url('./assets/aboutbg.png') no-repeat;
+  background-position: right -5% bottom;
 }
-.roboto {
-  font-family: "Roboto", serif;
-}
 
 
 
 
+/* menual responsive */
 @media screen and (max-width: 768px) {
   #root {
     max-width: auto;
     margin: 0 auto;
   }
+
   .main-container {
     padding: 60px 30px;
   }
-  .banner-text-gradient{
+
+  .banner-text-gradient {
+    background: none;
+  }
+
+  .about-bg {
     background: none;
   }
 }
