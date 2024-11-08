@@ -13,10 +13,8 @@ const Footer = () => {
                 {/* upper div */}
                 <div className=' mb-[120px]'>
                     <h1 className='text-white text-center text-[40px] lg:text-6xl bebass-neue mb-12'>We ready to have you the best dining experiences</h1>
-                    <div className='flex flex-col lg:flex-row lg:gap-0 gap-6 justify-between items-center '>
+                    <div className='flex flex-col lg:flex-row lg:gap-0 gap-6 justify-around items-center '>
 
-
-                        
                         {/* card 1 */}
                         <div className='flex flex-col items-center justify-between gap-4'>
 

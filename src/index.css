@@ -98,7 +98,7 @@
 /* banner style */
 
 .banner-bg {
-  background: url('./assets/bannerbg.png'), rgb(188, 51, 41);
+  background: url('./assets/bannerbg.png'), #BD1F17;
 }
 
 .banner-text-gradient {
