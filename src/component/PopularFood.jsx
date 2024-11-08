@@ -52,11 +52,11 @@ const PopularFood = () => {
                     ref={carouselRef}
                     additionalTransfrom={0}
                     arrows={false}
-                    autoPlaySpeed={3000}
+                    autoPlay
+                    autoPlaySpeed={2000}
                     centerMode={false}
                     className=""
                     containerClass="container-padding-bottom"
-                    //   customButtonGroup={''}
                     dotListClass=""
                     draggable
                     focusOnSelect={false}

@@ -5,13 +5,16 @@ import Carousel from 'react-multi-carousel';
 
 
 // images
-import burger from '../assets/burger.png'
-import pizza from '../assets/pizza.png'
-import shrimp from '../assets/shrimp.png'
-import fries from '../assets/fries.png'
+import profile from '../assets/profile.png'
+import slide1 from '../assets/slide1.jpeg'
+import slide2 from '../assets/slide2.png'
+import slide3 from '../assets/slide3.jpeg'
+import slide4 from '../assets/slide4.jpeg'
+import slide5 from '../assets/slide5.jpeg'
+import play from '../assets/Play.png'
 
 const ReviewSection = () => {
- 
+
     const carouselRef = useRef();
 
     const handleNext = () => {
@@ -54,11 +57,11 @@ const ReviewSection = () => {
                     ref={carouselRef}
                     additionalTransfrom={0}
                     arrows={false}
-                    autoPlaySpeed={3000}
+                    autoPlay
+                    autoPlaySpeed={2000}
                     centerMode={false}
                     className=""
                     containerClass="container-padding-bottom"
-                    //   customButtonGroup={''}
                     dotListClass=""
                     draggable
                     focusOnSelect={false}
@@ -76,7 +79,7 @@ const ReviewSection = () => {
                                 max: 1920,
                                 min: 1024
                             },
-                            items: 4,
+                            items: 1,
                             partialVisibilityGutter: 40
                         },
                         mobile: {
@@ -92,7 +95,7 @@ const ReviewSection = () => {
                                 max: 1024,
                                 min: 768
                             },
-                            items: 2,
+                            items: 1,
                             partialVisibilityGutter: 30
                         }
                     }}
@@ -107,123 +110,181 @@ const ReviewSection = () => {
                 >
 
                     {/* card 1 */}
-                    <div className='card'>
-                        <div className='card-image'>
-                            <img src={burger} className=" border-dashed border-2 mx-auto  mb-4" alt="" />
+                    <div className=' !w-full h-full flex flex-col-reverse lg:flex-row'>
+                        {/* right div */}
+                        <div className='right-div'>
 
+                            <div className=' flex'>
+                                <sup className='text-4xl times'>&quot;</sup>
+                                <h1 className='text-xl text-left roboto'> 
+                                    You can't go wrong with Chicken Mandi, I had it twice. The chicken was cooked perfectly, juicy & soft (usually mandi chicken is a bit dry). I would defiantly recommend it.
+                                    </h1>
+                            </div>
+
+
+                            <div className='flex justify-between items-center profile'>
+                                <div>
+                                    <h1 className='text-lg bebass-neue'>Khalid Al Dawsry</h1>
+                                    <p className='text-sm roboto'>Jeddah, Saudi</p>
+                                </div>
+
+                                <img src={profile} alt="" />
+                            </div>
                         </div>
-                        <div className='space-y-2'>
-                            <h1 className='bebass-neue text-2xl uppercase'>vegetables burger</h1>
-                            <p className='roboto '>Barbecue Italian cuisine burger</p>
+
+                        {/* left div */}
+                        <div className='left-div'>
+                                <div  className=' w-full h-full relative'>
+                                     <img className='w-full h-full object-cover' src={slide1} alt="" />
+                                    <button className='left-div-button'></button>
+                                </div>
                         </div>
                     </div>
 
 
-
                     {/* card 2 */}
-                    <div className='card'>
-                        <div className='card-image'>
-                            <img src={pizza} className=" border-dashed border-2 mx-auto  mb-4" alt="" />
+                    <div className=' !w-full h-full flex flex-col-reverse lg:flex-row'>
+                        {/* right div */}
+                        <div className='right-div'>
 
+                            <div className=' flex'>
+                                <sup className='text-4xl times'>&quot;</sup>
+                                <h1 className='text-xl text-left roboto'> 
+                                    You can't go wrong with Chicken Mandi, I had it twice. The chicken was cooked perfectly, juicy & soft (usually mandi chicken is a bit dry). I would defiantly recommend it.
+                                    </h1>
+                            </div>
+
+
+                            <div className='flex justify-between items-center profile'>
+                                <div>
+                                    <h1 className='text-lg bebass-neue'>Khalid Al Dawsry</h1>
+                                    <p className='text-sm roboto'>Jeddah, Saudi</p>
+                                </div>
+
+                                <img src={profile} alt="" />
+                            </div>
                         </div>
-                        <div className='space-y-2'>
-                            <h1 className='bebass-neue text-2xl uppercase'>Spacial Pizza </h1>
-                            <p className='roboto '>Barbecue Italian cuisine pizza</p>
+
+                        {/* left div */}
+                        <div className='left-div'>
+                                <div  className=' w-full h-full relative'>
+                                    <img className='w-full h-full object-cover' src={slide2} alt="" />
+                                    <button className='left-div-button'></button>
+                                </div>
                         </div>
                     </div>
 
 
                     {/* card 3 */}
-                    <div className='card'>
-                        <div className='card-image'>
-                            <img src={fries} className=" border-dashed border-2 mx-auto  mb-4" alt="" />
+                    <div className=' !w-full h-full flex flex-col-reverse lg:flex-row'>
+                        {/* right div */}
+                        <div className='right-div'>
 
+                            <div className=' flex'>
+                                <sup className='text-4xl times'>&quot;</sup>
+                                <h1 className='text-xl text-left roboto'> 
+                                    You can't go wrong with Chicken Mandi, I had it twice. The chicken was cooked perfectly, juicy & soft (usually mandi chicken is a bit dry). I would defiantly recommend it.
+                                    </h1>
+                            </div>
+
+
+                            <div className='flex justify-between items-center profile'>
+                                <div>
+                                    <h1 className='text-lg bebass-neue'>Khalid Al Dawsry</h1>
+                                    <p className='text-sm roboto'>Jeddah, Saudi</p>
+                                </div>
+
+                                <img src={profile} alt="" />
+                            </div>
                         </div>
-                        <div className='space-y-2'>
-                            <h1 className='bebass-neue text-2xl uppercase'>Shrimp</h1>
-                            <p className='roboto '>Barbecue Italian cuisine shrimp</p>
-                        </div>
-                    </div>
 
-
-                    {/* card 4 */}
-                    <div className='card'>
-                        <div className='card-image'>
-                            <img src={shrimp} className=" border-dashed border-2 mx-auto  mb-4" alt="" />
-
-                        </div>
-                        <div className='space-y-2'>
-                            <h1 className='bebass-neue text-2xl uppercase'>vegetables burger</h1>
-                            <p className='roboto '>Barbecue Italian cuisine burger</p>
-                        </div>
-                    </div>
-
-
-                    {/* card 1 */}
-                    <div className='card'>
-                        <div className='card-image'>
-                            <img src={burger} className=" border-dashed border-2 mx-auto  mb-4" alt="" />
-
-                        </div>
-                        <div className='space-y-2'>
-                            <h1 className='bebass-neue text-2xl uppercase'>vegetables burger</h1>
-                            <p className='roboto '>Barbecue Italian cuisine burger</p>
-                        </div>
-                    </div>
-
-
-
-                    {/* card 2 */}
-                    <div className='card'>
-                        <div className='card-image'>
-                            <img src={pizza} className=" border-dashed border-2 mx-auto  mb-4" alt="" />
-
-                        </div>
-                        <div className='space-y-2'>
-                            <h1 className='bebass-neue text-2xl uppercase'>Spacial Pizza </h1>
-                            <p className='roboto '>Barbecue Italian cuisine pizza</p>
-                        </div>
-                    </div>
-
-
-                    {/* card 3 */}
-                    <div className='card'>
-                        <div className='card-image'>
-                            <img src={fries} className=" border-dashed border-2 mx-auto  mb-4" alt="" />
-
-                        </div>
-                        <div className='space-y-2'>
-                            <h1 className='bebass-neue text-2xl uppercase'>Shrimp</h1>
-                            <p className='roboto '>Barbecue Italian cuisine shrimp</p>
+                        {/* left div */}
+                        <div className='left-div'>
+                                <div  className=' w-full h-full relative'>
+                                    <img  className='w-full h-full object-cover' src={slide3} alt="" />
+                                    <button className='left-div-button'></button>
+                                </div>
                         </div>
                     </div>
 
 
                     {/* card 4 */}
-                    <div className='card'>
-                        <div className='card-image'>
-                            <img src={shrimp} className=" border-dashed border-2 mx-auto  mb-4" alt="" />
+                    <div className=' !w-full h-full flex flex-col-reverse lg:flex-row'>
+                        {/* right div */}
+                        <div className='right-div'>
 
+                            <div className=' flex'>
+                                <sup className='text-4xl times'>&quot;</sup>
+                                <h1 className='text-xl text-left roboto'> 
+                                    You can't go wrong with Chicken Mandi, I had it twice. The chicken was cooked perfectly, juicy & soft (usually mandi chicken is a bit dry). I would defiantly recommend it.
+                                    </h1>
+                            </div>
+
+
+                            <div className='flex justify-between items-center profile'>
+                                <div>
+                                    <h1 className='text-lg bebass-neue'>Khalid Al Dawsry</h1>
+                                    <p className='text-sm roboto'>Jeddah, Saudi</p>
+                                </div>
+
+                                <img src={profile} alt="" />
+                            </div>
                         </div>
-                        <div className='space-y-2'>
-                            <h1 className='bebass-neue text-2xl uppercase'>vegetables burger</h1>
-                            <p className='roboto '>Barbecue Italian cuisine burger</p>
+
+                        {/* left div */}
+                        <div className='left-div'>
+                                <div  className=' w-full h-full relative'>
+                                    <img className='w-full h-full object-cover' src={slide4} alt="" />
+                                    <button className='left-div-button'></button>
+                                </div>
                         </div>
                     </div>
 
+
+                    {/* card 5 */}
+                    <div className=' !w-full h-full flex flex-col-reverse lg:flex-row'>
+                        {/* right div */}
+                        <div className='right-div'>
+
+                            <div className=' flex'>
+                                <sup className='text-4xl times'>&quot;</sup>
+                                <h1 className='text-xl text-left roboto'> 
+                                    You can't go wrong with Chicken Mandi, I had it twice. The chicken was cooked perfectly, juicy & soft (usually mandi chicken is a bit dry). I would defiantly recommend it.
+                                    </h1>
+                            </div>
+
+
+                            <div className='flex justify-between items-center profile'>
+                                <div>
+                                    <h1 className='text-lg bebass-neue'>Khalid Al Dawsry</h1>
+                                    <p className='text-sm roboto'>Jeddah, Saudi</p>
+                                </div>
+
+                                <img src={profile} alt="" />
+                            </div>
+                        </div>
+
+                        {/* left div */}
+                        <div className='left-div'>
+                                <div  className=' w-full h-full relative'>
+                                    <img className='w-full h-full object-cover' src={slide5} alt="" />
+                                    <button className='left-div-button'></button>
+                                </div>
+                        </div>
+                    </div>
 
                 </Carousel>
             </div>
 
-             {/* button */}
-             <div className=' lg:hidden flex items-center mt-[30px] justify-center  gap-4'>
-                    <button onClick={handlePrev} className='btn-icon-shadow'>
-                        <IoIosArrowBack className='!w-[18px] !h-[18px] font-bold' />
-                    </button>
-                    <button onClick={handleNext} className='btn-icon-shadow '>
-                        <IoIosArrowForward className='!w-[18px] !h-[18px] font-bold' />
-                    </button>
-                </div>
+            {/* button */}
+            <div className=' lg:hidden flex items-center mt-[30px] justify-center  gap-4'>
+                <button onClick={handlePrev} className='btn-icon-shadow'>
+                    <IoIosArrowBack className='!w-[18px] !h-[18px] font-bold' />
+                </button>
+                <button onClick={handleNext} className='btn-icon-shadow '>
+                    <IoIosArrowForward className='!w-[18px] !h-[18px] font-bold' />
+                </button>
+            </div>
         </div>
     );
 };

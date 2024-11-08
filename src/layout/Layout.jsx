@@ -6,7 +6,7 @@ const Layout = () => {
     return (
         <div className='relative'>
             {/* Nav bar positioned sticky (on top of everything) */}
-            <div className='fixed top-0 left-0 w-full z-50'>
+            <div className='sticky top-0 left-0 w-full z-50'>
                 <Nav />
             </div>
 
