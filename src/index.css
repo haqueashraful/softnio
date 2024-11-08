@@ -93,7 +93,6 @@
   border-bottom: #ffffff !important;
   color: #ffffff !important;
   border-radius: 0 !important;
-  /* border-radius: 5px 5px 0 0; */
 }
 
 /* banner style */
@@ -226,6 +225,14 @@ textarea::placeholder {
   justify-content: center;
   align-items: center;
 }
+
+/* footer style */
+.footer-bg{
+  background: url('./assets/footerbg.webp') no-repeat center;
+  background-size: 100% 100%;
+}
+
+
 
 /* menual responsive */
 @media screen and (max-width: 768px) {
