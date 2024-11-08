@@ -1,6 +1,8 @@
-import { useRef } from 'react';
+import React, { useRef } from 'react';
 import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io';
 import Carousel from 'react-multi-carousel';
+
+
 
 // images
 import burger from '../assets/burger.png'
@@ -8,8 +10,8 @@ import pizza from '../assets/pizza.png'
 import shrimp from '../assets/shrimp.png'
 import fries from '../assets/fries.png'
 
-const PopularFood = () => {
-
+const ReviewSection = () => {
+ 
     const carouselRef = useRef();
 
     const handleNext = () => {
@@ -23,16 +25,16 @@ const PopularFood = () => {
 
 
     return (
-        <div className='main-container popular-food-bg text-left'>
+        <div className='main-container review-bg text-left'>
             {/* upper div */}
             <div className='lg:flex justify-between  mb-[30px] lg:mb-[60px]'>
                 {/* title */}
                 <div>
-                    <div className='flex gap-2 items-center  mb-4'>
+                    <div className='flex gap-2 items-center mb-4'>
                         <span className='square'></span>
                         <p className='roboto text-lg lg:text-xl text-[#B52B1D] font-semibold'>Crispy, Every Bite Taste</p>
                     </div>
-                    <h1 className='text-[40px] lg:text-6xl bebass-neue'>POPULAR FOOD ITEMS</h1>
+                    <h1 className='text-[40px] lg:text-6xl bebass-neue'>What Some of my Customers Say</h1>
                 </div>
 
                 {/* button */}
@@ -226,4 +228,4 @@ const PopularFood = () => {
     );
 };
 
-export default PopularFood;
+export default ReviewSection;

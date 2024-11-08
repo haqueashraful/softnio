@@ -165,6 +165,13 @@ textarea::placeholder {
 }
 
 
+/* Review section style */
+.review-bg{
+  background: url('./assets/rbg1.png') no-repeat, url( './assets/rbg2.png') no-repeat;
+  background-position: left -10% top 20%, right -18% bottom 20%;
+
+}
+
 /* menual responsive */
 @media screen and (max-width: 768px) {
   #root {
@@ -191,6 +198,10 @@ textarea::placeholder {
   .card {
     width: 100%;
     height: auto;
+  }
+
+  .review-bg{
+    background: none;
   }
 }
 
