@@ -1,8 +1,35 @@
-# React + Vite
+# Softnio [Live Link](https://ashraful-softnio-restaurant.netlify.app/)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+> Clone the project: 
+``` clone full 
+git clone https://github.com/haqueashraful/softnio
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> Change directory: 
+``` change directory
+cd softnio
+```
+
+> Make Ready for Run: 
+``` Install dependencies
+npm install
+```
+
+> Run the file :
+```Run the file
+ npm run dev 
+```
+
+> ## Framework Used:
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind](https://tailwindcss.com/)
+- [React Router Dom](https://reactrouter.com/en/main)
+- [React Icons](https://react-icons.github.io/react-icons/)
+- [React Multi Carousel](https://www.npmjs.com/package/react-multi-carousel)
+- [React Tab](https://react-tabs.com/)
+
+
+
+
