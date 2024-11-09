@@ -21,7 +21,7 @@ npm install
  npm run dev 
 ```
 
-> ## Framework Used:
+> ## Framework & Libraries Used:
 - [React](https://react.dev/)
 - [Vite](https://vitejs.dev/)
 - [Tailwind](https://tailwindcss.com/)
