@@ -28,7 +28,7 @@ npm install
 - [React Router Dom](https://reactrouter.com/en/main)
 - [React Icons](https://react-icons.github.io/react-icons/)
 - [React Multi Carousel](https://www.npmjs.com/package/react-multi-carousel)
-- [React Tab](https://react-tabs.com/)
+- [React Tab](https://www.npmjs.com/package/react-tabs)
 
 
 
