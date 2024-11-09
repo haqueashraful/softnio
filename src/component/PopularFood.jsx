@@ -71,7 +71,7 @@ const PopularFood = () => {
                     responsive={{
                         desktop: {
                             breakpoint: {
-                                max: 1920,
+                                max: 2560,
                                 min: 1024
                             },
                             items: 4,

@@ -76,7 +76,7 @@ const ReviewSection = () => {
                     responsive={{
                         desktop: {
                             breakpoint: {
-                                max: 1920,
+                                max: 2560,
                                 min: 1024
                             },
                             items: 1,
@@ -116,7 +116,7 @@ const ReviewSection = () => {
 
                             <div className=' flex'>
                                 <sup className='text-4xl times'>&quot;</sup>
-                                <h1 className='text-xl text-left roboto'> 
+                                <h1 className='text-lg lg:text-xl text-left roboto'> 
                                     You can't go wrong with Chicken Mandi, I had it twice. The chicken was cooked perfectly, juicy & soft (usually mandi chicken is a bit dry). I would defiantly recommend it.
                                     </h1>
                             </div>
@@ -149,7 +149,7 @@ const ReviewSection = () => {
 
                             <div className=' flex'>
                                 <sup className='text-4xl times'>&quot;</sup>
-                                <h1 className='text-xl text-left roboto'> 
+                                <h1 className='text-lg lg:text-xl text-left roboto'> 
                                     You can't go wrong with Chicken Mandi, I had it twice. The chicken was cooked perfectly, juicy & soft (usually mandi chicken is a bit dry). I would defiantly recommend it.
                                     </h1>
                             </div>
@@ -182,7 +182,7 @@ const ReviewSection = () => {
 
                             <div className=' flex'>
                                 <sup className='text-4xl times'>&quot;</sup>
-                                <h1 className='text-xl text-left roboto'> 
+                                <h1 className='text-lg lg:text-xl text-left roboto'> 
                                     You can't go wrong with Chicken Mandi, I had it twice. The chicken was cooked perfectly, juicy & soft (usually mandi chicken is a bit dry). I would defiantly recommend it.
                                     </h1>
                             </div>
@@ -215,7 +215,7 @@ const ReviewSection = () => {
 
                             <div className=' flex'>
                                 <sup className='text-4xl times'>&quot;</sup>
-                                <h1 className='text-xl text-left roboto'> 
+                                <h1 className='text-lg lg:text-xl text-left roboto'> 
                                     You can't go wrong with Chicken Mandi, I had it twice. The chicken was cooked perfectly, juicy & soft (usually mandi chicken is a bit dry). I would defiantly recommend it.
                                     </h1>
                             </div>

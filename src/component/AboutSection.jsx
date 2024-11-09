@@ -6,6 +6,8 @@ import 'react-tabs/style/react-tabs.css';
 import { FiPhoneCall, FiShoppingBag } from "react-icons/fi";
 import { BsBoxSeam } from 'react-icons/bs';
 import { FaAward } from 'react-icons/fa';
+import { TbWorldSearch } from 'react-icons/tb';
+import { GrContact } from 'react-icons/gr';
 
 
 const AboutSection = () => {
@@ -48,15 +50,15 @@ const AboutSection = () => {
                         {/* Experiences content */}
                         <TabPanel className={' '}>
                             <div className='space-y-4 my-8'>
-                                <h1 className='text-[40px] lg:text-6xl  bebass-neue'>Exceptional culinary experience and delicious food</h1>
+                                <h1 className='text-[40px] lg:text-6xl  bebass-neue'>Exceptional Dishes, Unforgettable Experience</h1>
                                 <p className='roboto'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare non sed est cursus. Vel hac convallis ipsum, facilisi odio pellentesque bibendum viverra tempus. Lorem ipsum dolor sit amet consectetur adipiscing elit do eiusmod tempor incididunt ut labore et dolore magna minim veniam nostrud exercitation.</p>
                             </div>
 
                             <div className='flex flex-col lg:flex-row gap-8 items-center'>
-                                <button className='btn-common'>About More</button>
+                                <button className='btn-common'>Learn More</button>
                                 <div className='flex gap-2 items-center'>
-                                    <FiPhoneCall className='text-xl text-[#B52B1D]' />
-                                    <p className=' roboto font-bold text-sm lg:text-lg'>+88 3426 739 485</p>
+                                    <TbWorldSearch className='text-xl text-[#B52B1D]' />
+                                    <p className=' roboto font-bold text-sm lg:text-lg'>https://www.restaurant.com</p>
                                 </div>
                             </div>
                         </TabPanel>
@@ -64,15 +66,15 @@ const AboutSection = () => {
                         {/* Contact content */}
                         <TabPanel className={' '}>
                             <div className='space-y-4 my-8'>
-                                <h1 className='text-[40px] lg:text-6xl  bebass-neue'>Exceptional culinary experience and delicious food</h1>
+                                <h1 className='text-[40px] lg:text-6xl  bebass-neue'>Ready to Get Started? Contact Us Today</h1>
                                 <p className='roboto'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare non sed est cursus. Vel hac convallis ipsum, facilisi odio pellentesque bibendum viverra tempus. Lorem ipsum dolor sit amet consectetur adipiscing elit do eiusmod tempor incididunt ut labore et dolore magna minim veniam nostrud exercitation.</p>
                             </div>
 
                             <div className='flex flex-col lg:flex-row gap-8 items-center'>
-                                <button className='btn-common'>About More</button>
+                                <button className='btn-common'>Contact Us</button>
                                 <div className='flex gap-2 items-center'>
-                                    <FiPhoneCall className='text-xl text-[#B52B1D]' />
-                                    <p className=' roboto font-bold text-sm lg:text-lg'>+88 3426 739 485</p>
+                                    <GrContact className='text-xl text-[#B52B1D]' />
+                                    <p className=' roboto font-bold text-sm lg:text-lg'>support@restaurant.com</p>
                                 </div>
                             </div>
                         </TabPanel>

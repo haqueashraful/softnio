@@ -19,13 +19,13 @@ const BookTable = () => {
 
             {/* form */}
             <div className='space-y-6 w-full lg:w-1/2'>
-                <div className='lg:flex gap-4'>
-                <input type="text" placeholder="Your Name" className="input w-full lg:w-1/2  " />
-                <input type="text" placeholder="Your Email" className="input w-full lg:w-1/2 " />
+                <div className='flex flex-col lg:flex-row gap-4'>
+                <input type="text" placeholder="Your Name" className="w-full lg:w-1/2  " />
+                <input type="text" placeholder="Your Email" className="w-full lg:w-1/2 " />
                 </div>
-                <div className='lg:flex gap-4'>
-                <input type="date" placeholder="Reservation Date" className="input w-full lg:w-1/2 " />
-                <input type="number" placeholder="Number of Person" className="input w-full lg:w-1/2 " />
+                <div className='flex flex-col lg:flex-row gap-4'>
+                <input type="date" placeholder="Reservation Date" className="w-full lg:w-1/2 " />
+                <input type="number" placeholder="Number of Person" className="w-full lg:w-1/2 " />
                 </div>
                 <textarea name="" id="" cols="30" rows="7" placeholder="Message" className='w-full' ></textarea>
                 <button className='btn-common'>Book Now</button>
