@@ -24,7 +24,7 @@
   font-family: "Roboto", serif;
 }
 
-.times{
+.times {
   font-family: "Times New Roman", Times, serif;
 }
 
@@ -34,25 +34,18 @@
 /* button */
 
 .btn-common {
-  /* Auto layout */
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: 8;
   padding: 16px 24px 16px 24px;
-
-  /* Yellow */
   background: rgb(254, 191, 0);
-
-
-  /* btn text style */
   color: rgb(10, 20, 37);
   font-family: "Roboto", serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 24px;
-  letter-spacing: 0%;
   text-align: center;
   text-transform: uppercase;
 }
@@ -115,12 +108,12 @@
 
 /* popular food style */
 .popular-food-bg {
-  background: url('./assets/popularfood.png') #FBF7F2  no-repeat;
+  background: url('./assets/popularfood.png') #FBF7F2 no-repeat;
   background-position: left -8% bottom 20%;
 }
-.square {
-  
-}
+
+.square {}
+
 .square::after {
   content: "";
   display: block;
@@ -147,7 +140,8 @@
   display: block;
   width: 55px;
   height: 7px;
-  margin: 8px auto; /* Adjust margin as needed */
+  margin: 8px auto;
+  /* Adjust margin as needed */
   background: #B52B1D;
 }
 
@@ -158,7 +152,7 @@
 }
 
 input,
-textarea{
+textarea {
   color: #ffffff;
   background: none;
   border: 2px solid #ffffff;
@@ -167,18 +161,18 @@ textarea{
 
 input::placeholder,
 textarea::placeholder {
-  appearance:  none;
+  appearance: none;
   color: #ffffff;
 }
 
 
 /* Review section style */
-.review-bg{
-  background: url('./assets/rbg1.png') no-repeat, url( './assets/rbg2.png') no-repeat;
+.review-bg {
+  background: url('./assets/rbg1.png') no-repeat, url('./assets/rbg2.png') no-repeat;
   background-position: left -10% top 20%, right -18% bottom 20%;
 }
 
-.right-div{
+.right-div {
   background: url('./assets/starvector.svg') no-repeat, #FEBF00;
   background-position: left bottom 15%;
   padding: 70px 85px;
@@ -189,12 +183,13 @@ textarea::placeholder {
   justify-content: space-between;
 }
 
-.profile{
+.profile {
   border-bottom: 2px solid #0A1425;
   padding-bottom: 16px;
   position: relative;
 }
-.profile::after{
+
+.profile::after {
   content: "";
   display: block;
   width: 40px;
@@ -206,12 +201,12 @@ textarea::placeholder {
 }
 
 
-.left-div{
+.left-div {
   width: calc(100% - 566px);
   height: 555px;
 }
 
-.left-div-button{
+.left-div-button {
   background: url('./assets/Play.png') no-repeat, #0000004D;
   background-position: center;
   cursor: pointer;
@@ -227,7 +222,7 @@ textarea::placeholder {
 }
 
 /* footer style */
-.footer-bg{
+.footer-bg {
   background: url('./assets/footerbg.webp') no-repeat center;
   background-size: 100% 100%;
 }
@@ -243,6 +238,23 @@ textarea::placeholder {
 
   .main-container {
     padding: 60px 30px;
+  }
+
+  .btn-common {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8;
+    padding: 12px 18px;
+    background: rgb(254, 191, 0);
+    color: rgb(10, 20, 37);
+    font-family: "Roboto", serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
   }
 
   .banner-text-gradient {
@@ -262,19 +274,19 @@ textarea::placeholder {
     height: auto;
   }
 
-  .review-bg{
+  .review-bg {
     background: none;
   }
 
-  .right-div{
+  .right-div {
     width: 100%;
     height: 335px;
     padding: 25px;
   }
-  .left-div{
+
+  .left-div {
     width: 100%;
     height: 240px;
   }
 
 }
-

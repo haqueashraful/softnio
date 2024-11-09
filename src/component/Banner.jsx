@@ -6,7 +6,7 @@ import star from '../assets/vector.png';
 
 const Banner = () => {
     return (
-        <div className='main-container !pt-[200px] banner-bg flex flex-col lg:flex-row gap-8 lg:gap-0 items-center'>
+        <div className='main-container lg:!pt-[200px] !pt-[100px] banner-bg flex flex-col lg:flex-row gap-8 lg:gap-0 items-center'>
             {/* banner text */}
             <div className='relative z-10 w-full lg:w-1/2 text-left lg:space-y-8 space-y-4'>
                 <h1 className='banner-text-gradient bebass-neue text-5xl lg:text-[120px] text-white lg:w-[850px] lg:h-[252px] lg:leading-[130px]'>
